@@ -6,7 +6,7 @@ const validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0
 
 form.addEventListener('submit' , (event) => {
     event.preventDefault()
-    
+
     NameValidade()
     emailValidade()
     mainPasswordValidate()
@@ -31,7 +31,6 @@ function NameValidade(){
         removeError(0)
     }
 }
-
 
 function emailValidade(){
     if(!validRegex.test(campos[1].value)){
