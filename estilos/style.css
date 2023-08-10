@@ -3,11 +3,8 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
 body{
     background-color: rgb(44, 44, 44);
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +13,7 @@ body{
 
 main{
     background-color: rgb(65, 64, 64);
-    height: 600px;
+    height: 630px;
     width: 340px;
     display: flex;
     flex-direction: column;
@@ -24,22 +21,17 @@ main{
 
     color: white;
     border-radius: 10px;
-
     box-shadow: 1px 1px 10px white;
 }
-
 h1{
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .inputs{
     background-color: rgb(53, 52, 52);
     color: white;
     padding: 8px 5px;
-    
-
     border: 1px solid rgb(53, 52, 52);
     border-radius: 5px;
     outline: none;
@@ -47,43 +39,34 @@ h1{
     box-sizing: border-box;
     width: 100%;
     margin-bottom: 10px;
-
-    
 }
 
 .inputs:focus{
     border: 2px solid rgb(173, 21, 173);
 }
 
-
-
 #descriçao{
     background-color: rgb(53, 52, 52);
     color: white;
-    
     box-sizing: border-box;
     width: 100%;
 }
-
-
 .span-required{
+    margin: -5px 0px 0px 0px;
+    font-size: 12px;
+    color: red;
     display: none;
 }
-
 .sexo{
-    
     display: flex;
     justify-content: space-between;
     margin: 10px 0px 10px 0px;
 }
-
 .experiencias{
     display: flex;
     justify-content: space-between;
     margin: 10px 0px 20px 0px;
-    
 }
-
 button[type='submit']{
     background-color: rgb(151, 18, 151);
     color: white;
